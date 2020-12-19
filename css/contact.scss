@@ -1,0 +1,1505 @@
+.header{
+    //margin: 0 0 19.8px;
+    padding: 10px 0px;
+    height: 50.2px;
+    background-color:black;
+    .left{
+      display: flex;
+      justify-content: flex-start;
+      img{
+        
+        background-color: transparent;
+      }
+      .Qaynar-xtt-994-12 {
+        margin: 8px 0px 5px 0px;
+        font-family: Gotham-Bold;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.49px;
+        color:white;
+      }
+      .Bitmap {
+        margin: 3px 13.1px 5px 0;
+        object-fit: contain;
+        i{
+          color: white;
+          margin-top: 3px;
+          font-size: 23px;
+        }
+      }
+    }
+    .right{
+      padding-right: 0;
+      display: flex;
+      text-align: right;
+      justify-content: flex-end;
+      .AZ {
+        width: 18px;
+        height: 15px;
+        margin: 8px 5px 0px 5px;
+        font-family: Gotham-Bold;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.39px;
+        color: white;
+      }
+      .EN {
+        width: 17px;
+        height: 15px;
+        margin: 8px 5px 0px 5px;
+        font-family: Gotham-Bold;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.39px;
+        color: white;
+      }
+      .RU {
+        width: 17px;
+        height: 15px;
+        margin: 8px 35px 0px 5px;
+        font-family: Gotham-Bold;
+        font-size: 12px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.39px;
+        color:white;
+        position: relative;
+        &::before{
+          position: absolute;
+          content: '';
+          bottom: -10px;
+          width: 1px;
+          margin: 0 42.5px 0 45.8px;
+          height: 37px;
+          background-color: #000000;
+          color: #000000;
+        }
+      }
+      .Group-2 {
+        width: 132px;
+        height: 18px;
+        object-fit: contain;
+        i{
+          margin-left: 10px;
+        color: white;
+        }
+      }
+    }
+  
+  }
+
+  body{
+    overflow-x: hidden;
+    background-color: white !important;
+  }
+  .slick-active .image-text{
+    animation-name: example;
+    animation-duration: 2s;
+  }
+  
+  .phone{
+    display: none;
+  }
+  .sidenav {
+    align-items: center;
+    display: none;
+    text-align: center;
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5px;
+    .left{
+      
+      img{
+        background-color: transparent;
+      }
+      .Qaynar-xtt-994-12 {
+        font-family: Gotham-Bold;
+        font-size: 15px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -0.49px;
+        color:#faa61a;
+      }
+      .Bitmap {
+        i{
+          color:#faa61a;
+          margin-top: 0px;
+          font-size: 23px;
+        }
+      }
+    }
+  .right{
+    margin-top: 0px;
+    .AZ {
+      width: 18px;
+      height: 15px;
+      margin: 8px 5px 0px 5px;
+      font-family: Gotham-Bold;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.39px;
+      color:#faa61a;
+    }
+    .EN {
+      width: 17px;
+      height: 15px;
+      margin: 8px 5px 0px 5px;
+      font-family: Gotham-Bold;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.39px;
+      color:#faa61a;
+    }
+    .RU {
+      width: 17px;
+      height: 15px;
+      margin: 8px 35px 0px 5px;
+      font-family: Gotham-Bold;
+      font-size: 12px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: -0.39px;
+      color:#faa61a;
+    }
+  }
+  
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    justify-content: center;
+    font-family: Gotham-Medium;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .links{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .header3{
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    .header2{
+      z-index: 999;
+      position: absolute;
+      .left{
+        z-index: 999;
+        padding-left: 0%;
+        display: flex;
+        margin-left: -10px;
+        .Group-12 {
+          width: 146px;
+          height: 138px;
+          padding: 0px 50px 0px 0px;
+          object-fit: contain;
+        }
+        .Bitmap1 {
+          width: 172.5px;
+          height: 96px;
+          margin-left: 40px;
+          margin-top: 35px;
+          opacity: 1;
+          img{
+           
+            height: 100%;
+          }
+          //background-color: var(--white);
+        }
+      }
+      .right{
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-top: 70px;
+        justify-content: flex-end;
+        right: -19%;
+        .dropdown{
+          display: inline-block;
+          position: relative;
+          .dropbtn{
+            a{
+              text-decoration: none;
+            }
+          .Haqqmzda {
+            margin: 95.3px 40px 78px 0px;
+            font-family: Gotham-Bold;
+            font-size: 17px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: var(--white);
+          }
+          .Virtual-tur {
+            margin: 95.3px 40px 78px 0px;
+            font-family: Gotham-Bold;
+            font-size: 17px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: var(--white);
+          }
+          .Mhsullar {
+            margin: 95.3px 0px 78px 0px;
+            font-family: Gotham-Bold;
+            font-size: 17px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: var(--white);
+          }
+          .laq {
+            margin: 95.3px 0px 78px 30px;
+            font-family: Gotham-Bold;
+            font-size: 17px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: var(--white);
+          }
+      }
+  }
+  
+  
+      }
+    
+    }
+    .sliderall{
+      justify-content: center;
+      background-image: url(../img/middle4.jpg);
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      .image{
+          position: relative;
+          width: 100%;
+          height: 40vh;
+          .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 9;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            background-image: linear-gradient(to bottom, #000000 10%, #ffffff00 93%);        }
+            
+          img{
+            width: 100%;
+            height: 101%;
+          }
+      .image-text{
+          z-index: 13;
+          position: absolute;
+          top: 20%;
+          left:20%;
+          .n-son-texnologiyala {
+          margin: 110px 255.6px 19.8px 0px;
+          font-family: Gotham-Medium;
+          font-size: 30px;
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1;
+          letter-spacing: 2px;
+          color: var(--white);
+        }
+        .Biz-biirdiyimiz-r {
+          margin: 19.8px 48px 39px 0px;
+          font-family: Gotham-Ultra;
+          font-size: 67px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.93;
+          letter-spacing: normal;
+          color: var(--white);
+        }
+        .Masir-texnologiyada {
+          margin: 39px 53px 25.8px 0px;
+          font-family: Gotham-Light;
+          font-size: 16px;
+          font-weight: 300;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.69;
+          letter-spacing: 1.5px;
+          opacity: 0.9;
+          color: var(--white);
+        }
+        .TRAFLI {
+          width: 60px;
+          height: 15px;
+          margin: 25.8px 9.6px 0 0px;
+          font-family: Gotham-Bold;
+          font-size: 13px;
+          font-weight: bold;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          color: #faa61a;
+          position: relative;
+          .ox{
+            position: absolute;
+            color: #faa61a;
+            top:-3px;
+            left: 45px;
+            font-size: 20px;
+          }
+        }
+  
+          }
+      }    
+    }
+  }
+
+  .slick-active .image-text{
+    animation-name: example;
+    animation-duration: 2s;
+  }
+
+  @keyframes example {
+    0%   {top:40%;left:20%}
+    100% {top:20%;left:20%;}
+  }
+
+  
+@font-face{
+    src: url(../Fonts/Gotham-Ultra.otf);
+    font-family:Gotham-Ultra;
+  }
+  
+  
+  
+  @font-face{
+    src: url(../Fonts/Gotham-Black.otf);
+    font-family:Gotham-Black;
+  }
+  @font-face{
+    src: url(../Fonts/Gotham-Bold.otf);
+    font-family:Gotham-Bold;
+  }
+  @font-face{
+    src: url(../Fonts/Gotham-Book.otf);
+    font-family:Gotham-Book;
+  }
+  @font-face{
+    src: url(../Fonts/Gotham-Light.otf);
+    font-family:Gotham-Light;
+  }
+  @font-face{
+    src: url(../Fonts/Gotham-Medium.otf);
+    font-family:Gotham-Medium;
+  }
+  @font-face{
+    src: url(../Fonts/Gotham-Thin.otf);
+    font-family:Gotham-Thin;
+  }
+  
+  @font-face{
+    src: url(../Fonts/Gotham-XLight.otf);
+    font-family:Gotham-Xlight;
+  }
+  
+  @font-face{
+    src: url(../Fonts/MarkPro-Black.otf);
+    font-family:MarkPro-Black;
+  }
+  @font-face{
+    src: url(../Fonts/MarkPro-Book.otf);
+    font-family:MarkPro-Book;
+  }
+  @font-face{
+    src: url(../Fonts/MarkPro-Light.otf);
+    font-family:MarkPro-Light;
+  }
+  @font-face{
+    src: url(../Fonts/MarkPro-Bold.otf);
+    font-family:MarkPro-Bold;
+  }
+
+  .slide-textt{
+    background-color: white;
+    justify-content: center;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+    .Bizim-stnlklrimi {
+      text-align: center;
+      font-family: Gotham-Medium;
+      font-size: 25px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #faa61a;
+    }
+    .-rk-zavodu-sah {
+      text-align: center;
+      font-family: Gotham-Ultra;
+      font-size: 41px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.12;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+
+  
+      
+  .slide-text4{
+    background-color: white;
+    justify-content: center;
+    padding: 100px 0px 80px 0px;
+    text-align: center;
+    .Bizim-stnlklrimi {
+      text-align: center;
+      font-family: Gotham-Medium;
+      font-size: 25px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #faa61a;
+    }
+    .-rk-zavodu-sah {
+      text-align: center;
+      font-family: Gotham-Ultra;
+      font-size: 41px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.12;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+    }
+  }
+
+
+  
+  .yellow{
+    background-color: #faa61a;
+    padding: 40px;
+    justify-content: space-around;
+      .box2, .box3, .box1{
+        text-align: right;
+        margin-top: 18px;
+        padding: 0;
+        i{
+        font-size: 20px;
+        color: #2d2d2d;
+        }
+        span{
+        font-family: Gotham-Light;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #2d2d2d;
+        }
+    }
+    .box4{
+      margin-top: 10px;
+      padding: 0;
+      text-align: right;
+        button{
+          background-color: black;
+          transition: 1s;
+          font-family: Gotham-Light;
+          text-align: right;
+          outline: none;
+          border: none;
+          border-radius: 10px;
+          padding: 8px 50px;
+          color: white;
+          &:hover{
+            background-color: white;
+            a{
+              color: #faa61a;
+            }
+          }
+          a{
+            color: white;
+            transition: 1s;
+            text-decoration: none;
+            &:focus{
+            outline: none;
+            text-decoration: none;
+            }
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+    }
+    
+    
+  }
+  
+  .footer{
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #793414 10%, #ca4f14 93%);
+    .box1{
+      .img1{
+        margin-top: 0px;
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 30px;
+      }
+      .img2{
+        margin-top: 75px;
+        display: block;
+        width: 88%;
+      }
+    }
+      .box2{
+        .col-lg-3{
+          padding: 0px;
+        }
+        .Haqqmzda {
+          text-align: left;
+          margin: 60px 0px 25px 0px;
+          font-family: MarkPro-Black;
+          font-size: 20px;
+          font-weight: 900;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1;
+          letter-spacing: normal;
+          color: #faa61a;
+        }
+        .irkt-haqqnda-Rhb {
+          //margin: 25px 46.2px 118.5px 200px;
+          font-family: Gotham-Light;
+          font-size: 15px;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: 0.58px;
+          color: white;
+        }
+    }
+  
+  }
+  
+  .xett{
+    background-color:black;
+    padding-bottom: 30px;
+    hr{
+      margin: 0%;
+      opacity: 0.5;
+      background-color: #888888;
+      border: solid 0.5 px #888888;
+    }
+  }
+  
+  .footer2{
+    background-color: black;
+    padding: 20px;
+    .zavod1{
+      font-family: Gotham-Light;
+      text-align: left;
+      margin-right: 25px;
+      font-size: 15px;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: 0.58px;
+      color:white;
+    }
+    .zavod2{
+        font-family: Gotham-Light;
+        text-align: end;
+        margin-right: 25px;
+        font-size: 15px;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: 0.58px;
+        color:white;
+      }
+  }
+
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #faa61a;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    i{
+      color: white;
+    }
+  }
+
+
+  #ex1{
+    transition: 5s;
+    border-radius: 0%;
+    height: 90%;
+    padding-top: 50px;
+    max-width: 500px;
+    a{
+      text-decoration: underline;
+      font-family: Gotham-Light;
+      &:hover{
+        color: #fca700;
+      }
+    }
+    span{
+      font-family: Gotham-Light;
+      }
+    .close-modal{
+      top: -0.5px;
+      right: 0px;
+      background-size: auto;
+    }
+    .p1{
+      text-align:center;
+      font-family: Gotham-Bold;
+        font-size: 20px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        color: #2d2d2d;
+    }
+    .p2{
+      text-align: center;
+      font-family: Gotham-Light;
+      font-size: 20px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: normal;
+      color: #2d2d2d;
+    }
+    label{
+      text-align: left;
+      display: block;
+      font-family: Gotham-Light;
+    }
+    input{
+      text-align: left;
+      font-family: Gotham-Light;
+      padding: 5px 245px 5px 0px ;
+      border: 1px solid #f3e7d7;
+      margin-bottom: 15px;
+      border-radius: 0;
+      outline: none;
+      background-color: #faf7f3;
+      transition: all 0.4s ease;
+      color: #000;
+      &:focus{
+        outline: none;
+      }
+    }
+    .inptext{
+      &::placeholder{
+        visibility: hidden;
+      }
+      &:hover{
+        &::placeholder{
+          visibility: visible;
+        }
+      }
+    }
+    textarea{
+      border: 1px solid #f3e7d7;
+      margin-bottom: 15px;
+      font-family: Gotham-Light;
+      border-radius: 0;
+      outline: none;
+      background-color: #faf7f3;
+      transition: all 0.4s ease;
+    }
+    .text{
+      margin-bottom: 20px;
+      font-family: Gotham-Light;
+      align-items: center;
+      padding: 10px 0px 10px 10px;
+      width: 100%;
+      border: 1px solid #f3e7d7;
+      background-color: #faf7f3;
+      button{
+        outline: none;
+        font-family: Gotham-Light;
+        border: 1px solid #f3e7d7;
+      }
+    }
+    .sendd{
+      font-family: Gotham-Light;
+      margin-left: 120px;
+      text-align: center;
+      outline: none;
+      border: 1px solid #f3e7d7;
+      padding: 10px 80px;
+      border-radius: 50px;
+      background-color: black;
+      color: white;
+      &:hover{
+        background-color: #fca700;
+        color: white;
+      }
+    }
+  }
+
+
+  .slide-text2{
+    background-color: white;
+    justify-content: center;
+    padding: 80px;
+    text-align: center;
+    .Hr-yerd-1-ol {
+      text-align: center;
+      //margin: 0 128px 28px 75px;
+      font-family: Gotham-Medium;
+      font-size: 25px;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.08;
+      letter-spacing: normal;
+      color: #faa61a;
+    }
+    .Mhsullarmz-keyfiy{
+      //margin: 28px 5px 142px 6px;
+      font-family: Gotham-Ultra;
+      font-size: 41px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.12;
+      letter-spacing: normal;
+      text-align: center;
+      color: #000000;
+    }
+  }
+  
+  .products{
+    background-color: white;
+    padding-bottom: 200px;
+    .photo{
+      img{
+        width: 100%;
+        height: 100%;
+      }
+      &:hover{
+        overflow: hidden;
+        img{
+          transform: scale(1.2);
+          transition: 1.5s;
+        }
+      }
+    }
+    .l-dymdn-istehsal {
+      width: 463px;
+      height: 20px;
+      margin: 49px 75px 27px 1px;
+      font-family: MarkPro-Black;
+      font-size: 27px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.74;
+      letter-spacing: normal;
+      color: #2d2d2d;
+    }
+    .Salam-inqrediyentl {
+      width: 283px;
+      height: 20px;
+      margin: 49px 151px 27px 0px;
+      font-family: MarkPro-Black;
+      font-size: 27px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.74;
+      letter-spacing: normal;
+      color: #2d2d2d;
+    }
+    .Uaqlarn-sevimlisi {
+      width: 238px;
+      height: 20px;
+      margin: 49px 179px 27px 0px;
+      font-family: MarkPro-Black;
+      font-size: 27px;
+      font-weight: 900;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 0.74;
+      letter-spacing: normal;
+      color: #2d2d2d;
+    }
+    .Masir-texnologiyada-Copy {
+      width: 372px;
+      height: 57px;
+      margin: 27px 61px 0 0px;
+      font-family: MarkPro;
+      font-size: 19px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1;
+      letter-spacing: 0.5px;
+      color: #999999;
+    }
+    .TRAFLI {
+      width: 60px;
+      height: 15px;
+      top: 20px;
+      //margin: 22px 10.2px 208.6px 320.7px;
+      font-family: Gotham-Bold;
+      font-size: 13px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #faa61a;
+      position: relative;
+      .ox{
+        position: absolute;
+        color: #faa61a;
+        top:-3px;
+        left: 40px;
+        font-size: 20px;
+      }
+    }
+  
+  }
+  
+  
+  .plus{
+    padding: 0px 0px;
+    background-color: white;
+    .number{
+      position: relative;
+      img{
+        width: 220px;
+        height: 213px;
+      }
+      &::before{
+        position: absolute;
+        background-color: #faa61a;
+        content: '';
+        bottom: 0;
+        left: 0;
+        color: #faa61a;
+        width: 0px;
+        height: 2px;
+      }
+      &:hover{
+        transition: 2s;
+        cursor: pointer;
+        &::before{
+        transition: 2s;
+          width: 200px;
+        }
+      }
+      .k {
+        //margin: 168px 131px 0 0;
+        font-family: MarkPro-Book;
+        font-size: 69px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: -2.4px;
+        color: #2d2d2d;
+      }
+      }
+  
+      .rk-gn-rzind-bi {
+        margin-top: 8px;
+        //margin: 262px 205px 70px 0;
+        font-family: MarkPro-Book;
+        font-size: 17px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: -0.55px;
+        color: #2d2d2d;
+        span{
+          font-family: MarkPro-Black;
+          line-height: 11px;
+          letter-spacing: -0.55px;
+        }
+    }
+  
+    
+  }
+
+
+  @media (max-width: 900px) {
+    .map{
+      iframe{
+        width: 100%;
+      }
+      .right{
+        .contact{
+          input{
+            padding-right: 100px;
+          }
+        }
+      }
+    }
+    .maintext{
+      .mainp{
+        font-size: 20px;
+      }
+      .mainp2{
+        font-size: 13px;
+      }
+    }
+    .xett{
+      display: none;
+    }
+    .sidenav{
+      display: block;
+    }
+    .tabmenu{
+      height: 700px;
+      padding-bottom: 0px;
+    }
+    .phone{
+      display: block;
+      right: 77px;
+      top: 86px;
+    }
+    .header3 {
+      .header2 {
+        .right {
+        text-align: left;
+        padding-top: 10px;
+        margin-left: 25px;
+        right: 0%;
+        margin-top: 0px;
+    }
+    .left{
+      margin-top: 23px;
+      margin-left: 25px;
+    }
+      }
+      .sliderall{
+        .image-text{
+          margin-top: 20px;
+        }
+      }
+  }
+    .plus{
+      padding-top: 0px;
+      text-align: center;
+      padding-bottom: 50px;
+      .number{
+        img{
+          width: 140px;
+          text-align: center;
+          height: 121px;    
+          display: block;
+          margin-left: 32%;
+        }
+        .k{
+          font-size: 27px;
+        text-align: center;
+        }
+      }
+      
+      .rk-gn-rzind-bi{
+        text-align: center;
+        font-size: 12px;
+      }
+    }
+    .footer{
+      .box1{
+        .img2{
+          margin-top: 85px;
+        }
+      }
+      .box2 {
+      .irkt-haqqnda-Rhb {
+        font-size: 11px;
+      }
+    }
+    }
+    .footer2{
+      text-align: center;
+      .zavod1{
+        text-align: center;
+        font-size: 13px;
+        margin-right: 0px;
+      }
+      .zavod2{
+        text-align: center;
+        font-size: 13px;
+        margin-right: 0px;
+      }
+    }
+  
+    .slide-text4{
+      display: none;
+    }
+    .brends{
+      display: none;
+    }
+    .yellow{
+      display: none;
+    }
+    .plus2{
+      padding-bottom: 100px;
+      text-align: center;
+      padding-top: 100px;
+      .Peakar-mtxssisl{
+        font-size: 17px;
+        margin: 10px 0px 16px 0;
+      }
+      .Masir-texnologiyada{
+        font-size: 14px;
+        margin: 18px 0px 10px 0px;
+      }
+    }
+    .slide-text{
+      padding-bottom: 10px;
+      .n-geni-mhsul-ei{
+        font-size: 20px;
+      }
+      .Satda-olan-rk-v{
+        font-size: 25px;
+      }
+    }
+    .slider{
+      .boxs{
+        text-align: center;
+        .image{
+          width: 152px;
+          margin-bottom: 20px;
+          margin-left: 85px;
+          height: 168px;
+        }
+      }
+      .Kpkli-baton-75 {
+        font-size: 20px;
+      }
+      .la-nv-buda-ununda{
+        font-size: 16px;
+      }
+    }
+    .owl-stage{
+      padding-left: 21px;
+    }
+    .slide-text2{
+      padding: 10px 0px;
+      padding-bottom: 5px;
+      .Hr-yerd-1-ol{
+        text-align: center;
+        font-size: 17px;
+        margin-left: 0px;
+      }
+      .Mhsullarmz-keyfiy {
+        text-align: center;
+        font-size: 17px;
+    }
+    }
+    .l-dymdn-istehsal{
+      width: 434px;
+      height: 0px; 
+      margin: 9px 75px 27px 1px;
+      font-family: MarkPro-Black;
+      font-size: 24px;
+      font-weight: 900;
+    }
+    .products .Masir-texnologiyada-Copy {
+      width: 255px;
+      height: 57px;
+      margin: 10px 61px 0 0px;
+      font-family: MarkPro;
+      font-size: 15px;
+  }
+  .products{
+    padding-bottom: 80px;
+    .photo{
+      text-align: center;
+      
+    }
+    .Masir-texnologiyada-Copy{
+      width: 100%;  
+      font-size: 12px;
+    }
+    .Salam-inqrediyentl{
+      margin-top: 15px;
+      font-size: 23px;
+      margin-bottom: 0px;
+    }
+    .l-dymdn-istehsal{
+      margin-top: 15px;
+      font-size: 23px;
+      margin-bottom: 0px;
+    }
+    .TRAFLI{
+      top: 0px;
+    }
+    .Uaqlarn-sevimlisi{
+      margin-top: 15px;
+      font-size: 23px;
+      margin-bottom: 0px;
+    }
+    .TRAFLI {
+      top: -27px;
+  }
+  }
+  .header{
+    display: none;
+  }
+  .header3{
+    .sliderall {
+      .image {
+        .image-text {
+          .n-son-texnologiyala {
+            margin: 110px 82.6px 19.8px 0px;
+            font-family: Gotham-Medium;
+            font-size: 15px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 2px;
+            color: var(--white);
+        }
+        .Biz-biirdiyimiz-r {
+          margin: 19.8px 48px 39px 0px;
+          font-family: Gotham-Ultra;
+          font-size: 20px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 0.93;
+          letter-spacing: normal;
+          color: var(--white);
+        }
+        .Masir-texnologiyada{
+          font-size: 10px;
+        }
+        }
+      }
+    }
+    .header2{
+      .right{
+        .dropdown{
+          .dropbtn{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  .corek2{
+    display: none;
+  }
+  }
+
+
+  
+@keyframes example2 {
+  0%   {top:40%;left:29%}
+  100% {top:20%;left:29%;}
+}
+
+@media (min-width: 2000px) {
+  .header3{
+    .sliderall{
+      .slick-active .image-text{
+        animation-name: example2;
+        animation-duration: 2s;
+      }
+      .image{
+        .image-text{
+          left: 29%;
+        }
+      }
+    }
+  }
+
+  .products{
+    margin-top: -2px;
+  }
+  .plus{
+    margin-top: -2px;
+  }
+  .slide-text{
+    margin-top: -3px;
+  }
+  .slide-text4{
+    margin-top: -2px;
+  }
+}
+
+
+@keyframes example3 {
+  0%   {top:40%;left:20%}
+  100% {top:20%;left:20%;}
+}
+
+
+@media (min-width: 1200px)and (max-width: 2000px){
+  .header3{
+    .sliderall{
+      .slick-active .image-text{
+        animation-name: example3;
+        animation-duration: 2s;
+      }
+      .image{
+        .image-text{
+          left: 20%;
+        }
+      }
+    }
+  }
+  .corek2 .hero-wrapper {
+    min-width: 113%;
+}
+
+}
+
+
+.map{
+  p{
+    font-family: Gotham-Bold;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    color: black;
+  }
+    .right{
+        .contact{
+            padding-top: 50px;
+            align-items: flex-start;
+            a{
+                text-decoration: underline;
+                font-family: Gotham-Light;
+                &:hover{
+                  color: #fca700;
+                }
+              }
+              span{
+                font-family: Gotham-Light;
+                }
+              .close-modal{
+                top: -0.5px;
+                right: 0px;
+                background-size: auto;
+              }
+              .p1{
+                text-align:center;
+                font-family: Gotham-Bold;
+                  font-size: 20px;
+                  font-weight: 900;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: 1;
+                  letter-spacing: normal;
+                  color: #2d2d2d;
+              }
+              .p2{
+                text-align: center;
+                font-family: Gotham-Light;
+                font-size: 20px;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1;
+                letter-spacing: normal;
+                color: #2d2d2d;
+              }
+              label{
+                text-align: left;
+                display: block;
+                font-family: Gotham-Light;
+              }
+              input{
+                text-align: left;
+                font-family: Gotham-Light;
+                padding: 5px 100px 5px 10px ;
+                border: 1px solid #f3e7d7;
+                margin-bottom: 15px;
+                border-radius: 0;
+                outline: none;
+                background-color: #faf7f3;
+                transition: all 0.4s ease;
+                color: #000;
+                &:focus{
+                  outline: none;
+                }
+              }
+              .inptext{
+                &::placeholder{
+                  visibility: hidden;
+                }
+                &:hover{
+                  &::placeholder{
+                    visibility: visible;
+                  }
+                }
+              }
+              textarea{
+                border: 1px solid #f3e7d7;
+                margin-bottom: 15px;
+                font-family: Gotham-Light;
+                padding-left: 10px;
+                border-radius: 0;
+                outline: none;
+                background-color: #faf7f3;
+                transition: all 0.4s ease;
+              }
+              .text{
+                text-align: left;
+                font-family: Gotham-Light;
+                padding: 5px 55px 5px 10px ;
+                border: 1px solid #f3e7d7;
+                width: 310px;
+                margin-bottom: 15px;
+                border-radius: 0;
+                display: block;
+                outline: none;
+                background-color: #faf7f3;
+                transition: all 0.4s ease;
+                color: #000;
+                button{
+                  outline: none;
+                  font-family: Gotham-Light;
+                  border: 1px solid #f3e7d7;
+                }
+              }
+              .sendd{
+                font-family: Gotham-Light;
+                text-align: center;
+                outline: none;
+                border: 1px solid #f3e7d7;
+                padding: 10px 80px;
+                border-radius: 50px;
+                background-color: black;
+                color: white;
+                &:hover{
+                  background-color: #fca700;
+                  color: white;
+                }
+              }
+        }
+    }
+    .left{
+      .newspart{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 15px;
+        justify-content: flex-start;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+        a{
+          cursor: pointer;
+          text-decoration: none;
+          transition: 0.5s;
+          .caption{
+            margin-bottom: 0px;
+            font-family: Gotham-Bold;
+            font-size: 12px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            color: black;
+            transition: 0.5s;
+            cursor: pointer;
+          }
+          &:hover{
+            cursor: pointer;
+            text-decoration: none;
+            .caption{
+              cursor: pointer;
+              color: #faa61a;
+            }
+          }
+        }
+        .date{
+          margin: 0%;
+          font-family: Gotham-Light;
+          font-size: 10px;
+          font-weight: bold;
+          color: #999999;
+        }
+      }
+    }
+}

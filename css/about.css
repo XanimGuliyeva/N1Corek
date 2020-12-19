@@ -1,0 +1,1100 @@
+.header {
+  padding: 10px 0px;
+  height: 50.2px;
+  background-color: black;
+}
+.header .left {
+  display: flex;
+  justify-content: flex-start;
+}
+.header .left img {
+  background-color: transparent;
+}
+.header .left .Qaynar-xtt-994-12 {
+  margin: 8px 0px 5px 0px;
+  font-family: Gotham-Bold;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  color: white;
+}
+.header .left .Bitmap {
+  margin: 3px 13.1px 5px 0;
+  object-fit: contain;
+}
+.header .left .Bitmap i {
+  color: white;
+  margin-top: 3px;
+  font-size: 23px;
+}
+.header .right {
+  padding-right: 0;
+  display: flex;
+  text-align: right;
+  justify-content: flex-end;
+}
+.header .right .AZ {
+  width: 18px;
+  height: 15px;
+  margin: 8px 5px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: white;
+}
+.header .right .EN {
+  width: 17px;
+  height: 15px;
+  margin: 8px 5px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: white;
+}
+.header .right .RU {
+  width: 17px;
+  height: 15px;
+  margin: 8px 35px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: white;
+  position: relative;
+}
+.header .right .RU::before {
+  position: absolute;
+  content: '';
+  bottom: -10px;
+  width: 1px;
+  margin: 0 42.5px 0 45.8px;
+  height: 37px;
+  background-color: #000000;
+  color: #000000;
+}
+.header .right .Group-2 {
+  width: 132px;
+  height: 18px;
+  object-fit: contain;
+}
+.header .right .Group-2 i {
+  margin-left: 10px;
+  color: white;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: white !important;
+}
+
+.slick-active .image-text {
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+.phone {
+  display: none;
+}
+
+.sidenav {
+  align-items: center;
+  display: none;
+  text-align: center;
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5px;
+}
+.sidenav .left img {
+  background-color: transparent;
+}
+.sidenav .left .Qaynar-xtt-994-12 {
+  font-family: Gotham-Bold;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.49px;
+  color: #faa61a;
+}
+.sidenav .left .Bitmap i {
+  color: #faa61a;
+  margin-top: 0px;
+  font-size: 23px;
+}
+.sidenav .right {
+  margin-top: 0px;
+}
+.sidenav .right .AZ {
+  width: 18px;
+  height: 15px;
+  margin: 8px 5px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: #faa61a;
+}
+.sidenav .right .EN {
+  width: 17px;
+  height: 15px;
+  margin: 8px 5px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: #faa61a;
+}
+.sidenav .right .RU {
+  width: 17px;
+  height: 15px;
+  margin: 8px 35px 0px 5px;
+  font-family: Gotham-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.39px;
+  color: #faa61a;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  justify-content: center;
+  font-family: Gotham-Medium;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.links {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.header3 {
+  position: relative;
+  overflow: hidden;
+  background-color: white;
+}
+.header3 .header2 {
+  z-index: 999;
+  position: absolute;
+}
+.header3 .header2 .left {
+  z-index: 999;
+  padding-left: 0%;
+  display: flex;
+  margin-left: -10px;
+}
+.header3 .header2 .left .Group-12 {
+  width: 146px;
+  height: 138px;
+  padding: 0px 50px 0px 0px;
+  object-fit: contain;
+}
+.header3 .header2 .left .Bitmap1 {
+  width: 172.5px;
+  height: 96px;
+  margin-left: 40px;
+  margin-top: 35px;
+  opacity: 1;
+}
+.header3 .header2 .left .Bitmap1 img {
+  height: 100%;
+}
+.header3 .header2 .right {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 70px;
+  justify-content: flex-end;
+  right: -19%;
+}
+.header3 .header2 .right .dropdown {
+  display: inline-block;
+  position: relative;
+}
+.header3 .header2 .right .dropdown .dropbtn a {
+  text-decoration: none;
+}
+.header3 .header2 .right .dropdown .dropbtn .Haqqmzda {
+  margin: 95.3px 40px 78px 0px;
+  font-family: Gotham-Bold;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.header3 .header2 .right .dropdown .dropbtn .Virtual-tur {
+  margin: 95.3px 40px 78px 0px;
+  font-family: Gotham-Bold;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.header3 .header2 .right .dropdown .dropbtn .Mhsullar {
+  margin: 95.3px 0px 78px 0px;
+  font-family: Gotham-Bold;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.header3 .header2 .right .dropdown .dropbtn .laq {
+  margin: 95.3px 0px 78px 30px;
+  font-family: Gotham-Bold;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.header3 .sliderall {
+  justify-content: center;
+  background-image: url(../img/middle.png);
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+}
+.header3 .sliderall .image {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+.header3 .sliderall .image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #000000 10%, #ffffff00 93%);
+}
+.header3 .sliderall .image img {
+  width: 100%;
+  height: 101%;
+}
+.header3 .sliderall .image .image-text {
+  z-index: 13;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.header3 .sliderall .image .image-text .n-son-texnologiyala {
+  margin: 110px 255.6px 19.8px 0px;
+  font-family: Gotham-Medium;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 2px;
+  color: var(--white);
+}
+.header3 .sliderall .image .image-text .Biz-biirdiyimiz-r {
+  margin: 19.8px 48px 39px 0px;
+  font-family: Gotham-Ultra;
+  font-size: 67px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.93;
+  letter-spacing: normal;
+  color: var(--white);
+}
+.header3 .sliderall .image .image-text .Masir-texnologiyada {
+  margin: 39px 53px 25.8px 0px;
+  font-family: Gotham-Light;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.69;
+  letter-spacing: 1.5px;
+  opacity: 0.9;
+  color: var(--white);
+}
+.header3 .sliderall .image .image-text .TRAFLI {
+  width: 60px;
+  height: 15px;
+  margin: 25.8px 9.6px 0 0px;
+  font-family: Gotham-Bold;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #faa61a;
+  position: relative;
+}
+.header3 .sliderall .image .image-text .TRAFLI .ox {
+  position: absolute;
+  color: #faa61a;
+  top: -3px;
+  left: 45px;
+  font-size: 20px;
+}
+
+.slick-active .image-text {
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  0% {
+    top: 40%;
+    left: 20%;
+  }
+  100% {
+    top: 20%;
+    left: 20%;
+  }
+}
+@font-face {
+  src: url(../Fonts/Gotham-Ultra.otf);
+  font-family: Gotham-Ultra;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Black.otf);
+  font-family: Gotham-Black;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Bold.otf);
+  font-family: Gotham-Bold;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Book.otf);
+  font-family: Gotham-Book;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Light.otf);
+  font-family: Gotham-Light;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Medium.otf);
+  font-family: Gotham-Medium;
+}
+@font-face {
+  src: url(../Fonts/Gotham-Thin.otf);
+  font-family: Gotham-Thin;
+}
+@font-face {
+  src: url(../Fonts/Gotham-XLight.otf);
+  font-family: Gotham-Xlight;
+}
+@font-face {
+  src: url(../Fonts/MarkPro-Black.otf);
+  font-family: MarkPro-Black;
+}
+@font-face {
+  src: url(../Fonts/MarkPro-Book.otf);
+  font-family: MarkPro-Book;
+}
+@font-face {
+  src: url(../Fonts/MarkPro-Light.otf);
+  font-family: MarkPro-Light;
+}
+@font-face {
+  src: url(../Fonts/MarkPro-Bold.otf);
+  font-family: MarkPro-Bold;
+}
+.slide-text {
+  background-color: white;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.slide-text .n-geni-mhsul-ei {
+  font-family: Gotham-Medium;
+  font-size: 25px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #faa61a;
+}
+.slide-text .Satda-olan-rk-v {
+  font-family: Gotham-Ultra;
+  font-size: 41px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.slide-text4 {
+  background-color: white;
+  justify-content: center;
+  padding: 120px 0px 100px 0px;
+  text-align: center;
+}
+.slide-text4 .Bizim-stnlklrimi {
+  text-align: center;
+  font-family: Gotham-Medium;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #faa61a;
+}
+.slide-text4 .-rk-zavodu-sah {
+  text-align: center;
+  font-family: Gotham-Ultra;
+  font-size: 41px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.maintext {
+  padding-top: 100px;
+}
+.maintext .mainp {
+  font-size: 30px;
+  font-weight: 700;
+  padding: 10px 0px;
+  color: #000;
+  text-transform: none;
+  font-family: Gotham-Book;
+}
+.maintext .mainp2 {
+  text-indent: 30px;
+  font-size: 18px;
+  padding: 10px 0px;
+  color: #000;
+  text-transform: none;
+  font-family: Gotham-Light;
+}
+.maintext .box img {
+  width: 100%;
+  height: 100%;
+}
+.maintext .box:hover {
+  cursor: pointer;
+  overflow: hidden;
+}
+.maintext .box:hover img {
+  transform: scale(1.2);
+  transition: 1.5s;
+}
+
+.footer {
+  padding: 20px;
+  background-image: linear-gradient(to bottom, #793414 10%, #ca4f14 93%);
+}
+.footer .box1 .img1 {
+  margin-top: 0px;
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+.footer .box1 .img2 {
+  margin-top: 75px;
+  display: block;
+  width: 88%;
+}
+.footer .box2 .col-lg-3 {
+  padding: 0px;
+}
+.footer .box2 .Haqqmzda {
+  text-align: left;
+  margin: 60px 0px 25px 0px;
+  font-family: MarkPro-Black;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #faa61a;
+}
+.footer .box2 .irkt-haqqnda-Rhb {
+  font-family: Gotham-Light;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  color: white;
+}
+
+.xett {
+  background-color: black;
+  padding-bottom: 30px;
+}
+.xett hr {
+  margin: 0%;
+  opacity: 0.5;
+  background-color: #888888;
+  border: solid 0.5 px #888888;
+}
+
+.footer2 {
+  background-color: black;
+  padding: 20px;
+}
+.footer2 .zavod1 {
+  font-family: Gotham-Light;
+  text-align: left;
+  margin-right: 25px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  color: white;
+}
+.footer2 .zavod2 {
+  font-family: Gotham-Light;
+  text-align: end;
+  margin-right: 25px;
+  font-size: 15px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.58px;
+  color: white;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #faa61a;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+#myBtn i {
+  color: white;
+}
+
+.slide-text2 {
+  background-color: white;
+  justify-content: center;
+  padding: 80px;
+  text-align: center;
+}
+.slide-text2 .Hr-yerd-1-ol {
+  text-align: center;
+  font-family: Gotham-Medium;
+  font-size: 25px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #faa61a;
+}
+.slide-text2 .Mhsullarmz-keyfiy {
+  font-family: Gotham-Ultra;
+  font-size: 41px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.12;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.products {
+  background-color: white;
+  padding-bottom: 200px;
+}
+.products .photo img {
+  width: 100%;
+  height: 100%;
+}
+.products .photo:hover {
+  overflow: hidden;
+}
+.products .photo:hover img {
+  transform: scale(1.2);
+  transition: 1.5s;
+}
+.products .l-dymdn-istehsal {
+  font-family: MarkPro-Black;
+  margin-top: 20px;
+  font-size: 27px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.74;
+  letter-spacing: normal;
+  color: #2d2d2d;
+}
+.products .Salam-inqrediyentl {
+  margin-top: 20px;
+  font-family: MarkPro-Black;
+  font-size: 27px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.74;
+  letter-spacing: normal;
+  color: #2d2d2d;
+}
+.products .Uaqlarn-sevimlisi {
+  margin-top: 20px;
+  font-family: MarkPro-Black;
+  font-size: 27px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.74;
+  letter-spacing: normal;
+  color: #2d2d2d;
+}
+.products .Masir-texnologiyada-Copy {
+  font-family: MarkPro;
+  font-size: 19px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  color: #999999;
+}
+.products .TRAFLI {
+  top: 20px;
+  font-family: Gotham-Bold;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #faa61a;
+  position: relative;
+}
+.products .TRAFLI .ox {
+  position: absolute;
+  color: #faa61a;
+  top: -3px;
+  left: 40px;
+  font-size: 20px;
+}
+
+.plus {
+  padding: 0px 0px;
+  background-color: white;
+}
+.plus .number {
+  position: relative;
+}
+.plus .number img {
+  width: 220px;
+  height: 213px;
+}
+.plus .number::before {
+  position: absolute;
+  background-color: #faa61a;
+  content: '';
+  bottom: 0;
+  left: 0;
+  color: #faa61a;
+  width: 0px;
+  height: 2px;
+}
+.plus .number:hover {
+  transition: 2s;
+  cursor: pointer;
+}
+.plus .number:hover::before {
+  transition: 2s;
+  width: 200px;
+}
+.plus .number .k {
+  font-family: MarkPro-Book;
+  font-size: 69px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -2.4px;
+  color: #2d2d2d;
+}
+.plus .rk-gn-rzind-bi {
+  margin-top: 8px;
+  font-family: MarkPro-Book;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -0.55px;
+  color: #2d2d2d;
+}
+.plus .rk-gn-rzind-bi span {
+  font-family: MarkPro-Black;
+  line-height: 11px;
+  letter-spacing: -0.55px;
+}
+
+@media (max-width: 900px) {
+  .maintext .mainp {
+    font-size: 20px;
+  }
+  .maintext .mainp2 {
+    font-size: 13px;
+  }
+
+  .xett {
+    display: none;
+  }
+
+  .sidenav {
+    display: block;
+  }
+
+  .tabmenu {
+    height: 700px;
+    padding-bottom: 0px;
+  }
+
+  .phone {
+    display: block;
+    right: 77px;
+    top: 86px;
+  }
+
+  .header3 .header2 .right {
+    text-align: left;
+    padding-top: 10px;
+    margin-left: 25px;
+    right: 0%;
+    margin-top: 0px;
+  }
+  .header3 .header2 .left {
+    margin-top: 23px;
+    margin-left: 25px;
+  }
+  .header3 .sliderall .image-text {
+    margin-top: 20px;
+  }
+
+  .plus {
+    padding-top: 0px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .plus .number img {
+    width: 140px;
+    text-align: center;
+    height: 121px;
+    display: block;
+    margin-left: 32%;
+  }
+  .plus .number .k {
+    font-size: 27px;
+    text-align: center;
+  }
+  .plus .rk-gn-rzind-bi {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .footer .box1 .img2 {
+    margin-top: 85px;
+  }
+  .footer .box2 .irkt-haqqnda-Rhb {
+    font-size: 11px;
+  }
+
+  .footer2 {
+    text-align: center;
+  }
+  .footer2 .zavod1 {
+    text-align: center;
+    font-size: 13px;
+    margin-right: 0px;
+  }
+  .footer2 .zavod2 {
+    text-align: center;
+    font-size: 13px;
+    margin-right: 0px;
+  }
+
+  .slide-text4 {
+    display: none;
+  }
+
+  .brends {
+    display: none;
+  }
+
+  .yellow {
+    display: none;
+  }
+
+  .plus2 {
+    padding-bottom: 100px;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .plus2 .Peakar-mtxssisl {
+    font-size: 17px;
+    margin: 10px 0px 16px 0;
+  }
+  .plus2 .Masir-texnologiyada {
+    font-size: 14px;
+    margin: 18px 0px 10px 0px;
+  }
+
+  .slide-text {
+    padding-bottom: 10px;
+  }
+  .slide-text .n-geni-mhsul-ei {
+    font-size: 20px;
+  }
+  .slide-text .Satda-olan-rk-v {
+    font-size: 25px;
+  }
+
+  .slider .boxs {
+    text-align: center;
+  }
+  .slider .boxs .image {
+    width: 152px;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    height: 168px;
+  }
+  .slider .Kpkli-baton-75 {
+    font-size: 20px;
+  }
+  .slider .la-nv-buda-ununda {
+    font-size: 16px;
+  }
+
+  .owl-stage {
+    padding-left: 21px;
+  }
+
+  .slide-text2 {
+    padding: 10px 0px;
+    padding-bottom: 5px;
+  }
+  .slide-text2 .Hr-yerd-1-ol {
+    text-align: center;
+    font-size: 17px;
+  }
+  .slide-text2 .Mhsullarmz-keyfiy {
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .l-dymdn-istehsal {
+    margin: 9px 75px 27px 1px;
+    font-family: MarkPro-Black;
+    font-size: 24px;
+    font-weight: 900;
+  }
+
+  .products .Masir-texnologiyada-Copy {
+    margin: 10px 61px 0 0px;
+    font-family: MarkPro;
+    font-size: 15px;
+  }
+
+  .products {
+    padding-bottom: 80px;
+  }
+  .products .photo {
+    text-align: center;
+  }
+  .products .Masir-texnologiyada-Copy {
+    width: 100%;
+    font-size: 12px;
+  }
+  .products .Salam-inqrediyentl {
+    margin-top: 15px;
+    font-size: 23px;
+    margin-bottom: 0px;
+  }
+  .products .l-dymdn-istehsal {
+    margin-top: 15px;
+    font-size: 23px;
+    margin-bottom: 0px;
+  }
+  .products .TRAFLI {
+    top: 0px;
+  }
+  .products .Uaqlarn-sevimlisi {
+    margin-top: 15px;
+    font-size: 23px;
+    margin-bottom: 0px;
+  }
+  .products .TRAFLI {
+    top: -0px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .header3 .sliderall .image .image-text .n-son-texnologiyala {
+    margin: 110px 82.6px 19.8px 0px;
+    font-family: Gotham-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: 2px;
+    color: var(--white);
+  }
+  .header3 .sliderall .image .image-text .Biz-biirdiyimiz-r {
+    margin: 19.8px 48px 39px 0px;
+    font-family: Gotham-Ultra;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    color: var(--white);
+  }
+  .header3 .sliderall .image .image-text .Masir-texnologiyada {
+    font-size: 10px;
+  }
+  .header3 .header2 .right .dropdown .dropbtn {
+    display: none;
+  }
+
+  .corek2 {
+    display: none;
+  }
+}
+@keyframes example2 {
+  0% {
+    top: 40%;
+    left: 29%;
+  }
+  100% {
+    top: 20%;
+    left: 29%;
+  }
+}
+@media (min-width: 2000px) {
+  .header3 .sliderall .slick-active .image-text {
+    animation-name: example2;
+    animation-duration: 2s;
+  }
+  .header3 .sliderall .image .image-text {
+    left: 29%;
+  }
+
+  .products {
+    margin-top: -2px;
+  }
+
+  .plus {
+    margin-top: -2px;
+  }
+
+  .slide-text {
+    margin-top: -3px;
+  }
+
+  .slide-text4 {
+    margin-top: -2px;
+  }
+}
+@keyframes example3 {
+  0% {
+    top: 40%;
+    left: 20%;
+  }
+  100% {
+    top: 20%;
+    left: 20%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 2000px) {
+  .header3 .sliderall .slick-active .image-text {
+    animation-name: example3;
+    animation-duration: 2s;
+  }
+  .header3 .sliderall .image .image-text {
+    left: 20%;
+  }
+
+  .corek2 .hero-wrapper {
+    min-width: 113%;
+  }
+}
+
+/*# sourceMappingURL=about.css.map */
